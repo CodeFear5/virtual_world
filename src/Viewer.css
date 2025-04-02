@@ -1,0 +1,92 @@
+/* Reset some basic styles */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+#root {
+  overflow: hidden;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  background: #f0f0f0; /* Lighter background */
+}
+
+.stats {
+  top: unset !important;
+  left: unset !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+button,
+input[type="file"] {
+  font-size: 8cm; /* Slightly smaller */
+  padding: 12px 20px; /* More padding */
+  margin-bottom: 20px;
+  margin-right: 10px; /* Adjust this value as needed */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  background-color: #007bff; /* Blue primary color */
+  color: white; /* White text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover and active states */
+button:hover,
+input[type="file"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active,
+input[type="file"]:active {
+  background-color: #004d99; /* Even darker blue on click */
+}
+
+button:disabled,
+input[type="file"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Card styling */
+.app-container {
+  display: flex;
+}
+
+.card {
+  background-color: 'grey'; /* White background */
+  padding: 10px;
+  color: #333; /* Dark text */
+  width: 15%;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+canvas {
+  flex-grow: 1;
+}

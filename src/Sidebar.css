@@ -1,0 +1,57 @@
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 60px); /* Adjust height to leave space for the navbar */
+    position: fixed;
+    top: 60px; /* Push the sidebar down below the navbar */
+    right: 0;
+    background-color: #f4f4f4;
+    padding: 15px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    z-index: 1000; /* Ensure it is on top of other elements */
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar label input,
+  .sidebar label select {
+    width: 100%;
+  }
+
+  .sidebar table {
+    width: 100%;
+    border-spacing: 0;
+  }
+  
+  .sidebar td {
+    padding: 0;
+    border: none;
+  }
+  
+  .sidebar button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .sidebar button:hover {
+    text-decoration: underline;
+  }
+  

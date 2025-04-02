@@ -1,0 +1,23 @@
+/* ThreeDText.css */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .controls label,
+  .controls input,
+  .controls select {
+    margin: 5px 0;
+  }
+  
+  .canvas-container {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .color-picker {
+    margin: 10px 0;
+  }
+  

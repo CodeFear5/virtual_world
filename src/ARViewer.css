@@ -1,0 +1,72 @@
+.ar-viewer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+  margin-top: 80px; /* Adjust margin to ensure the content is below the navbar */
+}
+
+.upload-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.controls {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.model-viewer-container {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  position: relative;
+}
+
+model-viewer {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ar-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ar-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,58 @@
+{
+  "name": "virtual-world",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@google/model-viewer": "^3.5.0",
+    "@mui/icons-material": "^5.16.0",
+    "@react-three/drei": "^9.109.2",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/xr": "^6.1.1",
+    "@webxr-input-profiles/registry": "^1.0.3",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "ar.js": "^2.2.2",
+    "dat.gui": "^0.7.7",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.6.1",
+    "lil-gui": "^0.19.2",
+    "lucide-react": "^0.487.0",
+    "react": "^18.2.0",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "^5.0.1",
+    "react-tooltip": "^5.27.1",
+    "three": "^0.163.0",
+    "troika-three-text": "^0.49.1",
+    "web-vitals": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
